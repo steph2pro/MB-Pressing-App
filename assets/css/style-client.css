@@ -1,0 +1,100 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'comic sans ms', sans-serif;
+}
+h1 {
+	text-align: center;
+	font-size: 3vw;
+	padding: 15px 0px;
+	color: var(--color-app);
+    text-transform: capitalize;
+}
+ label{
+
+margin-left: 2.5vw;
+margin-top: 1.5vw;
+ }
+.statut{
+    display: flex;
+}
+
+ input,select{
+    position: relative;
+     margin: 0.5vw 2vw;
+     width: 13vw;
+     height:2vw;
+     border:none;
+     border-bottom: solid 2px black;
+     background-color: gainsboro;
+     font-size: 1vw;
+     
+ }
+ .e1{
+    position: absolute;
+    margin-left: 13vw;
+ }
+ 
+#codeclt,#prenom{
+    margin-left: 1.5vw;
+}
+
+     
+ 
+ table {
+	width: 100%;
+	min-width: 100px;
+    background-color: slategray;
+ }
+  #button {
+	border: 2px solid black;	
+}
+
+
+
+.nnt{
+    padding: 12px 12px;
+    border-radius: 500px;
+    margin: 10px 12px;
+}
+div{
+    margin-left: 10vw;
+    margin-top: 2vw;
+    background-color: blanchedalmond;
+    margin-right: 1.5vw ;
+}
+.titre{
+    background-color: slategray;
+    margin-left: 0.1vw;
+    width: 88.4vw;
+}
+td{
+    text-align: center;
+}
+#telephone{
+    margin-left: 1.3vw;
+}
+#age{
+    margin-left: 4.1vw;
+}
+#mail{
+    margin-left: 3.1vw;
+}
+#pass{
+ margin-left: 0vw;   
+}
+#statut{
+    margin: 1.5vw 0.5vw;
+
+}
+#prenom{
+ margin-left: 2.5vw;   
+}
+#nom{
+ margin-left: 4.1vw;  
+
+}
+

@@ -1,0 +1,65 @@
+:root {
+	--color1: rgba(30,144,255, 1);
+	--color2: rgba(30,144,255, 0.3);
+}
+
+body{
+	margin-left: 9.5vw;
+}
+.centre{
+	padding-top: 3vw;
+	width: 25vw;
+	margin: 3vw 12vw;
+}
+.parent{
+	background-color: gainsboro;
+	margin: 10vw 15vw;
+	display: block;
+	width: 55vw;
+	height: 30vw;
+}
+.enfant2 a{
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.3vw;
+	font-weight: bolder;
+	color: black;
+	margin: 1vw;
+}
+.titre{
+	background-color: slategray;
+	position: absolute;
+	margin:-4vw 15vw;
+	width: 55vw;
+	height: 4vw;
+	text-align: center;
+}
+.titre:hover{
+	transition: all ease-in 0.3s;
+	background-color:var(--color1) ;
+	color: white;
+
+}
+h2{
+	text-transform: uppercase;
+	font-size: 1.8vw;
+	font-weight: bolder;
+}
+a:hover{
+	transition: all ease-in 0.5s;
+	background-color:var(--color1) ;
+	color: white;
+	border-radius:5vw;
+	padding: 1vw;
+	padding-right: 1vw;
+}
+#retour{
+	font-size: 1.2vw;
+
+}
+#retour:hover{
+	background-color: white;
+	color: var(--color1);
+	transition: all ease-in 0.5s;
+}

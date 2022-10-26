@@ -1,0 +1,78 @@
+body{
+    background:  rgb(62,57,107); /*#67BE4B;*/
+}
+#container{
+    width:400px;
+    margin:3 auto;
+    margin-top:10%;
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px dodgerblue;
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+/* Set a style for all buttons #53af57 */
+input[type=submit] {
+    background-color:  rgb(62,57,107); /*#53af57; */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color:  rgb(62,57,107); /*#53af57; */
+    border: 1px solid  rgb(62,57,107); /*#53af57; */
+}
+strong{
+
+    color: red;
+    text-decoration: underline;
+    margin-left: 60px;
+}
+i{
+    color: blue;
+    font-style: normal;
+}
+img{
+    width: 10vw;
+    height: 10vw;
+    cursor: progress;
+}
+h1{
+    display: flex;
+    position: absolute;
+   padding-left: 13vw;
+   padding-top: 3vw;
+}
+#nu{
+    position: relative;display: flex;
+}

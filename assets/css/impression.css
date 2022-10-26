@@ -1,0 +1,81 @@
+:root {
+	--color1: rgba(30,144,255, 1);
+	--color2: rgba(30,144,255, 0.3);
+}
+
+body{
+	margin: 5vw 15vw;
+}
+.mb{
+	background-color: slategray;
+	color: black;
+	font-size: 2vw;
+	text-align: center;
+	font-weight: bolder;
+}
+.info_perso{
+	font-size: 1.5vw;
+
+}
+.logo{
+	position: absolute;
+	margin: -14vw 20vw;
+	
+}
+img{
+	width: 25vw;
+}
+.info_client{
+	display: block;
+	position: absolute;
+	margin: -15vw 50vw;
+	font-size: 1.5vw;
+	width: 20vw;
+}
+table{
+	font-size: 1.4vw;
+	margin-top: 7vw;
+	width: 70vw;
+}
+th{
+	background-color: slategray;
+}
+td{
+	text-align: center;
+}
+button{
+	
+	margin: 3vw 30vw;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.3vw;
+	background-color: var(--color1);
+	color: white;
+	width: 12vw;
+	height: 2.5vw;
+}
+@media print{
+
+	button,a{
+		display: none;
+
+	}
+	b{
+		color: var(--color1);
+	}
+
+.mb{
+	background-color: var(--color1);
+	color: var(--color1);
+	font-size: 2.5vw;
+	text-align: center;
+	font-weight: bolder;
+	}
+	table,{
+		border: solid 2px blue;
+	}
+	td{
+		color: var(--color1);
+		background-color: var(--color2);
+	}
+}

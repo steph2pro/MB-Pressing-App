@@ -1,0 +1,78 @@
+:root {
+	--color1: rgba(30,144,255, 1);
+	--color2: rgba(30,144,255, 0.3);
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+}
+#statut{
+	position: relative;
+	margin-left: 3.7vw;
+}
+#retour{
+	position: absolute;
+	margin: 2vw 1vw;
+
+}
+#suivant{
+	position: absolute;
+	margin: -5vw 73vw;
+	width: 15vw;
+
+}
+a{
+	font-size: 1.3vw;
+	text-decoration: none;
+
+}
+b:hover{
+	background-color: var(--color1);
+	border-radius: 2vw;
+	transition: all ease-in 0.3s;
+	color: white;
+	padding: 1vw;
+}
+.update{
+	background-color: var(--color1);
+	color: white;
+	padding: 0.5vw;
+
+}
+.delete{
+	background-color:red;
+	color: white;
+	padding: 0.5vw;
+
+}
+.update1{
+	width: 4.8vw;
+	background-color: var(--color1);
+	color: white;
+	padding: 0.3vw;
+	margin: -2vw 0.4vw;
+	position: absolute;
+
+}
+.imprimer{
+	background-color: orangered;
+	color: white;
+	padding: 0.3vw;
+	margin: -1vw 0.4vw;
+	position: absolute;
+
+}
+.suprimer{
+	position: absolute;
+
+	background-color: red;
+	color: white;
+	margin: 0vw 0.4vw;
+	padding: 0.3vw;
+}
+th{
+	height: 35px;
+}
+span{
+	color: dodgerblue;
+}
